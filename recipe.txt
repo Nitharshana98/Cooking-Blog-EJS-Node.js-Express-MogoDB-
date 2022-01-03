@@ -1,0 +1,250 @@
+ async function insertDymmyRecipeData(){
+       try {
+         await Recipe.insertMany([
+           { 
+             "name": "Mexican black bean and corn nachos",
+             "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+             "email": "john@peter.co.uk",
+             "ingredients": [
+               "1 cup butter, softened",
+               "1 cup packed brown sugar",
+               "3/4 cup sugar",
+               "2 large eggs, room temperature",
+               "2-2/3 cups all-purpose flour",
+               "1-1/4 teaspoons baking soda",
+               "1 package (12 ounces) semisweet chocolate chips",
+             ],
+             "category": "Mexicon", 
+             "image": "mexican-black-bean-and-corn-nachos.jpg"
+           },
+           { 
+            "name": "Kingfish-Ceviche-Tacos",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Mexicon", 
+            "image": "Kingfish-Ceviche-Tacos.jpg"
+          },
+          { 
+            "name": "Sticky-pork-neck-soft-tacos-with-pickled-cabbage",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Mexicon", 
+            "image": "sticky-pork-neck-soft-tacos-with-pickled-cabbage.jpg"
+          },
+          { 
+            "name": "Matt Moran's fish tacos",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Mexicon", 
+            "image": "fish-tacos.jpg"
+          },
+          { 
+            "name": "Spicy Chorizo Enchiladas",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Mexicon", 
+            "image": "spicy-chorizo-enchiladas.jpg"
+          },
+          { 
+            "name": "Ghee Rice",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Indian", 
+            "image": "ghee-rice-recipe.jpg"
+          },
+          { 
+            "name": "Grilled Paneer Tikka",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Indian", 
+            "image": "grilled-paneer-tikka.jpg"
+          },
+          { 
+            "name": "Khaman",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Indian", 
+            "image": "khaman-recipe.jpg"
+          },
+          { 
+            "name": "Paneer Butter Masala",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Indian", 
+            "image": "paneer-butter-masala-1.jpg"
+          },
+          { 
+            "name": "Malai Kofta",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Indian", 
+            "image": "malai-kofta-1.jpg"
+          },
+          { 
+            "name": "Chinese Braised Pork Belly",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Chinese", 
+            "image": "Chinese Braised Pork Belly.jpg"
+          },
+          { 
+            "name": "Mango Pudding",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Chinese", 
+            "image": "Mango Pudding.jpg"
+          },
+          { 
+            "name": "Cashew Chicken",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Chinese", 
+            "image": "Cashew Chicken.jpg"
+          },
+          { 
+            "name": "Beef and Broccoli",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Chinese", 
+            "image": "Beef and Broccoli.jpg"
+          },
+          { 
+            "name": "Chow Mein",
+            "description": `My take on the classic cookie is inspired by a bakery in California called Hungry Bear. It's big, thick and chewy—truly the best chocolate chip cookie recipe.`,
+            "email": "john@peter.co.uk",
+            "ingredients": [
+              "1 cup butter, softened",
+              "1 cup packed brown sugar",
+              "3/4 cup sugar",
+              "2 large eggs, room temperature",
+              "2-2/3 cups all-purpose flour",
+              "1-1/4 teaspoons baking soda",
+              "1 package (12 ounces) semisweet chocolate chips",
+            ],
+            "category": "Chinese", 
+            "image": "Chow Mein.jpg"
+          },
+         ]);
+      } catch (error) {
+         console.log('err', + error)
+       }
+     }
+
+     insertDymmyRecipeData();
