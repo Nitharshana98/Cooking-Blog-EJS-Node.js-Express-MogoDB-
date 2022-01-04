@@ -25,7 +25,7 @@
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="/" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="/about" class="nav-link px-2 link-secondary">About</a></li>
+                <!-- <li><a href="/about" class="nav-link px-2 link-secondary">About</a></li> -->
                 <li><a href="/submit-recipe" class="nav-link px-2 link-secondary">Submit</a></li>
                 <li><a href="/contact" class="nav-link px-2 link-secondary">Contact</a></li>
             </ul>
@@ -37,14 +37,31 @@
             </div>
         </header>
 
-
         <main>
             <%- body -%>    
         </main>
 
-        <footer class="py-5">
-            <p>Built by Nitharshana Sathyamoorthy</p>
-        </footer>
+        
+
+        <div class="container-xl">
+            <footer class="py-5">
+                <div class="container">
+                    <div class="row">
+                      <div class="col order-last">
+                        <h6 style="text-align: center;">Contact <br/><br/> <i class="bi bi-telephone-fill"></i> : +94 765246352 <br/> <i class="bi bi-envelope-fill"></i> : <a href="cookingblog@hotmail.com" style="color: blue;">cookingblog@hotmail.com</a></h6>
+                      </div>
+                      <div class="col">
+                        <h6 style="text-align: center;">Built By @Nitharshana</h6>
+                      </div>
+                      <div class="col order-first">
+                        <a href="/" style="margin-left: 10%;">
+                            <img src="/img/BlogLogo.svg" width="229" height="68" alt="Cooking Blog">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+            </footer>
+        </div>
         
     </div>
     

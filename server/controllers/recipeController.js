@@ -188,12 +188,32 @@ const Recipe = require('../models/Recipe');
  }
  
 
+ 
+  /**
+  * GET /
+  * Contact Page
+  */
+
+   exports.contact = async(req, res) =>{
+
+    try {
+      
+       res.render('contact', {title : 'Cooking Blog - Contact'});
+    } catch (error) {
+       res.status(500).send({message: error.message || "Error Occures"});
+    } 
+  }
+
+
+ 
 
 
 
 
 
 
+
+  
 
 
 

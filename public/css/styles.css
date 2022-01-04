@@ -46,3 +46,18 @@ a {
     width: 100%;
     object-fit: cover;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(113, 111, 111);
+  }
+
+  .container-xl {
+  margin-top: 5%;
+    background-color: rgb(207, 214, 207);
+  }
+
+  
